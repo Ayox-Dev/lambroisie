@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: "Palace_Hand_DB";
+    src: url('../font/PAHDB.TTF');
+}
+
 body{
     background: #131313;
 }

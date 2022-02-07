@@ -275,22 +275,25 @@ body{
 
     .hero_container {
         text-align: center;
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero_heading {
         font-size: 60px;
+        text-align: center;
     }
 
     .hero_description {
         font-size: 30px;
         text-indent: 0rem;
+        text-align: center;
     }
 
     .hero_info {
         font-size: 25px;
         padding: 6rem;
+        text-align: center;
     }
 }
 

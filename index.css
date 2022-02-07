@@ -170,7 +170,7 @@ body{
         width: 80%;
         height: 80px;
         margin: 0;
-    }
+    }   
 
     #mobile-menu {
         position: absolute;
@@ -200,7 +200,7 @@ body{
 /* Hero Section */
 .hero {
     background: #131313;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/pikilia.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/pikilia.jpg');
     background-size: cover;
     padding: 200px;
 }
@@ -268,7 +268,7 @@ body{
 @media screen and (max-width: 1300px) {
     .hero {
         background: #131313;
-        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/fetchtom.jpg');
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/fetchtom.jpg');
         background-position: center;
         background-size: cover;        
     }
@@ -281,23 +281,50 @@ body{
 
     .hero_heading {
         font-size: 60px;
-        text-align: center;
+        align-items: center;
     }
 
     .hero_description {
         font-size: 30px;
         text-indent: 0rem;
-        text-align: center;
     }
 
     .hero_info {
         font-size: 25px;
         padding: 6rem;
-        text-align: center;
     }
 }
 
-/* About Section */
+@media screen and (max-width: 500px) {
+    .hero {
+        background: #131313;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/fetchtom.jpg');
+        background-position: center;
+        background-size: cover;        
+    }
+
+    .hero_container {
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+    }
+
+    .hero_heading {
+        font-size: 60px;
+    }
+
+    .hero_description {
+        font-size: 30px;
+        text-indent: 0rem;
+    }
+
+    .hero_info {
+        font-size: 25px;
+        padding: 6rem;
+    }
+}
+
+/* About Section */ 
 .main {
     background-color: #131313;
     padding: 10rem 0;
